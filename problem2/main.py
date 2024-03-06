@@ -9,7 +9,7 @@ def draw_xyz(N):
                 pattern += "Z "
             else:
                 pattern += "Y "
-            inc = inc + 1
+            inc += 1
         pattern += '\n'
     return pattern
     

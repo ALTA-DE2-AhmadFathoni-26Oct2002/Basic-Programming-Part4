@@ -1,8 +1,11 @@
 def mean_median(array_input):
-    n = array_input
+    n = sorted(array_input)
     p = len(n)
+    if p == 0:
+          return None
 
     mean = sum(n)/p
+    
 
     x = p//2
     if p % 2 == 1:
